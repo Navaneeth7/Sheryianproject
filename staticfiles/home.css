@@ -1,0 +1,569 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: "NeueMachina";
+    src: url(./NeueMachinaFreeforPersonalUse/NeueMachinaLight.otf);
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url(./NeueMachinaFreeforPersonalUse/Helvetica.ttf);
+}
+body{
+    /* background-image: radial-gradient(black,#24cfa6);  */
+    background-color: #0C0C0C; 
+    /* background-color: white; */
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.nav_links:hover{
+    cursor: pointer;
+}
+.nav_links{
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "NeueMachina";
+
+}
+#nav_bar{
+    margin-left: -30px;
+    padding-left: -70px;
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+}
+#logo_nav{
+    position: relative;
+    top: 10px;
+    left: 95px;
+    width: 1.5em;
+    height: 35px;
+}
+#Sheryians_heading{
+    position: relative;
+    left: 98px;
+    color: white;
+    font-family: "NeueMachina";
+}
+#home_link{
+    position: relative;
+    left: 484px;
+    color: white;
+}
+#courses_link{
+    position: relative;
+    left: 528px;
+    color: white;
+}
+#bootcamp_link{
+    position: relative;
+    left: 570px;
+    color: white;
+}
+#requestcallback_link{
+    position: relative;
+    left: 610px;
+    color: white;
+}
+#signin_button{
+    width: 93px;
+    height: 35px;
+    position: relative;
+    left: 640px;
+    background-color: #24cfa6;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: black;
+    font-family: "Helvetica";
+    
+}
+#sign_link{
+    text-decoration: none;
+}
+#secound_container{
+    width: 100%;
+    height: 223px;
+    text-align: center;
+    color: white;
+}
+#total_text{
+    font-size: 70px;
+}
+#good_text{
+    font-family: italic;
+}
+#tech_text,#color_text{
+    color: #24cfa6;
+}
+#empty_container{
+    width: 100%;
+    height: 60px;
+}
+#side_content{
+    position: absolute;
+    right: 190px;
+    top: 205px;
+    width: 12%;
+    height: 73px;
+    text-align: left;
+    font-size: 12.8px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+}
+#text_color{
+    color: #24cfa6;
+}
+#secound_container{
+    position: relative;
+    top: -10px;
+}
+#main_content{
+    line-height: 30px;
+    word-spacing: -1px;
+    letter-spacing: 2px;
+    font-size: 8.0em;
+    font-family: "NeueMachina";
+}
+#courses_button{
+    margin-left: 38%;
+    font-size: 20px;
+    width: 355px;
+    height: 45px;
+    background-color: #24cfa6;
+    border: none;
+    outline: none;
+    border-radius: 8.5px;
+    position: relative;
+    top: 25px;
+}
+#students{
+    width: 200px;
+    height: 75px;
+    /* border: 1px white solid; */
+    color: white;
+    position: relative;
+    left: 30%;
+    top: 140px;
+}
+#id1{
+    padding-left: 45px;
+    font-family: helvetica;
+    font-size: 31px;
+    font-weight:750;
+}
+#st{
+    margin-left: 2px;
+    padding-left: -20px;
+    font-family: "NeueMachina";
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: -1px;
+}
+
+#instructors{
+    width: 180px;
+    height: 75px;
+    /* border: 1px white solid; */
+    color: white;
+    position: relative;
+    left: 47%;
+    top: 65px;
+}
+#id2{
+    padding-left: 34px;
+    font-family: helvetica;
+    font-size: 31px;
+    font-weight:750;
+}
+#in{
+    position: relative;
+    left: -3px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: "NeueMachina";
+}
+/* .divs{
+    background-color: blue;
+} */
+#yt{
+    width: 180px;
+    height: 75px;
+    /* border: 1px white solid; */
+    color: white;
+    position: relative;
+    left: 59.5%;
+    top: -10px;
+}
+#id3{
+    padding-left: 50px;
+    font-family: helvetica;
+    font-size: 31px;
+    font-weight:750;
+}
+#youtube{
+    position: relative;
+    left: 22px;
+    font-family: "NeueMachina";
+    font-size: 20px;
+    letter-spacing: 0px;
+    top: 3px;
+}
+#video_container{
+    width: 800px;
+    height: 600px;
+    padding: 100px;
+    margin-left: 200px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-family: "NeueMachina";
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+#video_toptext{
+    letter-spacing: -1px;
+    position: relative;
+    left: -30px;
+    top: -50px;
+    font-weight: bold;
+    word-spacing: 10px;
+    color: white;
+}
+#iframe_container{
+    position: absolute;
+    left: 7px;
+    /* border: 3px solid blue; */
+    border-radius: 40px;
+}
+#iframe{
+    border-radius: 25px;
+}
+#highlight_text{
+    color: #24cfa6;
+}
+#freelearning{
+    width: 260px;
+    height: 40px;
+    background-color: #24cfa6;
+    position: relative;
+    top: 98px;
+    left: 42%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 22px;
+}
+/* #empty_container{
+    width: 100%;
+    height: 167px;
+    position: relative;
+    background-color: black;
+    top: 100px;
+} */
+#cart_container{
+    /* border: 1px solid white; */
+    width: 91.5%;
+    height: 1200px;
+    margin-top: 265px;
+    margin-left: 70px;
+}
+#courses_offered{
+    font-family: "NeueMachina";
+    position: relative;
+    left:8px;
+    top: -10px;
+    font-size: 40px;
+    color: white;
+}
+#first_container,#scond_container,#third_container,#fourth_container,#fifth_container{
+    width: 350px;
+    height: 430px;
+    /* background-color:rgba(67, 59, 74, 0.327); */
+    background-color: #171717;
+    border-radius: 15px;
+    position: relative;
+    top: 45px;
+}
+#first_container{
+    margin-left: 0px;
+    width: 385px;
+}
+#scond_container{
+    margin-left: 55px;
+    width: 385px;
+}
+#third_container{
+    margin-left: 120px;
+    width: 385px;
+}
+#first_img{
+    width: 100%;
+    height: 43%;
+}
+#img1{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+#heading_container{
+    width: 100%;
+    height: fit-content;
+    color: white;
+    
+}
+#main_course{
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    left: 23px;
+}
+#sub_course{
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    left: 23px;
+}
+#hindi_container{
+    position: relative;
+    top: 37px;
+    left: 24px;
+    width: 65px;
+    height: 27px;
+    background-color: rgba(99, 97, 97, 0.25);
+    border: none;
+    outline: noe;
+    color: white;
+}
+#discount{
+    color: rgb(56, 189, 56);
+}
+#price_container{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    top: 90px;
+    left: 24px;
+}
+#price{
+    color: white;
+    font-size: 27px;
+}
+#original_price{
+    color: #7c7c7c;
+    position: relative;
+    left: 30px;
+    top: -3px;
+    font-size: 23px;
+    text-decoration: line-through;
+}
+#discount_button{
+    background-color: white;
+    position: relative;
+    left: 60px;
+    top: -10px;
+    width: 80px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: medium;
+}
+#img2{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+#scond_container{
+    position: relative;
+    left: 359px;
+    top: -385px;
+}
+
+#third_container{
+    position: relative;
+    left: 710px;
+    top: -815px;
+}
+
+#fourth_container{
+    position: relative;
+    left: 1060px;
+    top: -1245px;
+}
+
+#fifth_container{
+    position: relative;
+    top: -1090px;
+}
+.view_button{
+    width: 385px;
+    background-color: #24cfa6;
+    color: black;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 130px;
+}
+/* #view1{
+    position: relative;
+    top: 130px;
+    width: 327px;
+}
+#view2{
+    position: relative;
+    top: 130px;
+} */
+
+#dummyabovecompany{
+    width: 100%;
+    height: 900px;
+    margin-top: 0px;
+}
+
+#compines_container{
+    width: 100%;
+    height: 720px;
+    position: relative;
+    top: -1000px;
+    margin-top: 155px;
+}
+#dummybelowcompany{
+    width: 99.7%;
+    height: 100px;
+    /* background-color: cyan; */
+    /* border: 2px solid white; */
+    margin-top: -120px;
+}
+#compianes_text1{
+    font-family: "NeueMachina";
+}
+#compines_container_text{
+    text-align: center;
+    font-family: "NeueMachina";
+    font-size: 45px;
+    line-height: 50px;
+    width: 100%;
+    height: 180px;
+
+}
+#img_container{
+    width: 100%;
+    height: 350px;
+    
+}
+#img_size{
+    width: 80%;
+    position: relative;
+    left: 136px;
+    top: -35px;
+}
+#explore_button{
+    width: 245px;
+    height: 54px;
+    position: relative;
+    left: 573px;
+    top: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    border: none;
+    background-color: #24cfa6;
+}
+#explorebutton_container{
+    width: 100%;
+    height: 190px;
+}
+#footer_parent{
+    width: 94.5%;
+    height: 470px;
+    /* background-color: brown; */
+    border-top: 0.5px solid wheat;
+    border-bottom: 0.2px solid white;
+    margin-top: -1010px;
+    margin-left: 40px;
+}
+#footer_img{
+    width: 42px;
+    height: 58px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+#footer_span{
+    position: relative;
+    top: 130px;
+    left: -270px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+#social_img{
+    position: relative;
+    top: 200px;
+    left: -35px;
+}
+#company{
+    height: 400px;
+    width: 200px;
+    margin-left: 450px;
+    /* border: 1px solid white; */
+    color: white;
+    font-family: Helvetica;
+}
+
+    .footer-content {
+      text-align: left; /* Align text within the content */
+    }
+
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+.footer-content{
+    text-align: left;
+}
+h1 {
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+#copyright{
+    width: 99.7%;
+    height: 80px;
+    /* background-color: white; */
+}
+#copyright_para{
+    text-align: center;
+    padding-top: 13px;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: "Helvetica";
+    color: whitesmoke;
+}
+#compines_container_text{
+    color: white;
+}

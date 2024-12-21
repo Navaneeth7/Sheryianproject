@@ -1,0 +1,232 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title icon="logo" href="{% static 'Sheryians_logo.webp' %}">sheryians coding school</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <div id="nav_bar">
+        <a href="#"><img src="{% static 'Sheryians_logo.webp' %}" id="logo_nav" alt=""></a>
+        <a href="#" class="nav_links"><span id="Sheryians_heading">Sheryians coding school</span></a>
+        <a class="nav_links"id='home_link' href="">Home</a>
+        <a class="nav_links"id='courses_link' href="">Courses</a>
+        <a class="nav_links"id='bootcamp_link' href="">Bootcamp(kodr)</a>
+        <a class="nav_links"id='requestcallback_link' href="">Request Callback</a>
+        <button id="signin_button" class="nav_links"><a id="sign_link" href="">Sign In</a></button>
+    </div>
+    <div id="empty_container"></div>
+    <div id="secound_container" class="middle">
+        <span id="main_content">
+            <span id="total_text">
+                We only 
+                <span id="tech_text">teach</span>
+                <br>
+                what we are really
+                <br>
+                really
+                <i><span id="good_text">good</span></i>
+                at.
+            </span>
+        <span>
+        <div id="side_content">
+            Get ready to
+            <span id="text_color">accelerate your career </span>
+            with customized courses and leave your mark in the tech industry
+        </div>
+    </div>
+    <div id="courses_container">
+        <button id="courses_button">Check Courses-Make an Impact</button>
+    </div>
+    <div class="divs" id="students"><span id="id1">25k+</span><br><span id="st">Students taught</span></div>
+    <div class="divs" id="instructors"><span id="id2">20+</span><br><span id="in">Instructors</span></div>
+    <div class="divs" id="yt"><span id="id3">431K+</span><br><span id="youtube">Youtube Subs.</span></div>
+    <div id="video_container">
+        <span id="video_toptext">
+            we do whatever it takes to help you
+            <br>
+            <span id="highlight_text">understand the concepts.</span>
+        </span>
+        <div id="iframe_container">
+            <iframe id="iframe" width="952" height="535" src="https://www.youtube.com/embed/60SRAWmMXyc" title="You Are Not Yet Ready | Placements | Open Source" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <button id="freelearning">Explore free learning</button>
+    <!-- <div id="empty_container"></div> -->
+    <div id="cart_container">
+        <h1 id="courses_offered">Courses Offered.</h1>
+        <div id="first_container">
+            <div id="first_img"><img id="img1" src="{% static 'img1.webp' %}" alt=""></div>
+            <div id="first_content">
+                <div id="courses_heading">
+                    <span id="heading_container">
+                        <span id="main_course">
+                            Front-End Domination:
+                        </span>
+                        <br>
+                        <span id="sub_course">
+                            Create Anything with Code
+                        </span>
+                        <br>
+                        <button id="hindi_container">
+                            HINDI
+                        </button>
+                    </span>
+                </div>
+            </div>
+            <div id="price_container">
+                <span id="discount">Limited Time Discount</span><br>
+                <span id="price">₹ 4999</span><span id="original_price">₹ 9999</span>
+                <button id="discount_button">50% OFF</button>
+            </div>
+            <button id="view1" class="view_button">View Details</button>
+        </div>
+        <div id="scond_container">
+            <div id="first_img"><img id="img2" src="{% static 'img2.webp' %}" alt=""></div>
+            <div id="first_content">
+                <div id="courses_heading">
+                    <span id="heading_container">
+                        <span id="main_course">
+                            Back-End Domination:
+                        </span>
+                        <br>
+                        <span id="sub_course">
+                            Create Efficent Back-End
+                        </span>
+                        <br>
+                        <button id="hindi_container">
+                            HINDI
+                        </button>
+                    </span>
+                </div>
+            </div>
+            <div id="price_container">
+                <span id="discount">Limited Time Discount</span><br>
+                <span id="price">₹ 5999</span><span id="original_price">₹ 11999</span>
+                <button id="discount_button">50% OFF</button>
+            </div>
+            <button id="view2" class="view_button">View Details</button>
+        </div>
+        <div id="third_container">
+
+            <div id="first_img"><img id="img2" src="{% static 'img3.webp' %}" alt=""></div>
+            <div id="first_content">
+                <div id="courses_heading">
+                    <span id="heading_container">
+                        <span id="main_course">
+                            Aptitude & Reasoning for
+                        </span>
+                        <br>
+                        <span id="sub_course">
+                            Campus Placements
+                        </span>
+                        <br>
+                        <button id="hindi_container">
+                            HINDI
+                        </button>
+                    </span>
+                </div>
+            </div>
+            <div id="price_container">
+                <span id="discount">Limited Time Discount</span><br>
+                <span id="price">₹ 999</span><span id="original_price">₹ 1500</span>
+                <button id="discount_button">33% OFF</button>
+            </div>
+            <button id="view2" class="view_button">View Details</button>
+        </div>
+        <!-- <div id="fourth_container">
+
+            <div id="first_img"><img id="img2" src="{% static 'img4.webp' %}" alt=""></div>
+            <div id="first_content">
+                <div id="courses_heading">
+                    <span id="heading_container">
+                        <span id="main_course">
+                            Java & DSA Domination
+                        </span>
+                        <br>
+                        <span id="sub_course">
+                            Create Anything with Code
+                        </span>
+                        <br>
+                        <button id="hindi_container">
+                            HINDI
+                        </button>
+                    </span>
+                </div>
+                <div id="price_container">
+                    <span id="discount">Limited Time Discount</span><br>
+                    <span id="price">₹ 4999</span><span id="original_price">₹ 9999</span>
+                    <button id="discount_button">50% OFF</button>
+                </div>
+                <button id="view2" class="view_button">View Details</button>
+        </div> -->
+    </div>
+
+    <!-- <div id="fifth_container">
+
+        <div id="first_img"><img id="img2" src="{% static 'img5.webp' %}" alt=""></div>
+        <div id="first_content">
+            <div id="courses_heading">
+                <span id="heading_container">
+                    <span id="main_course">
+                        Three.js Division
+                    </span>
+                    <br>
+                    <button id="hindi_container">
+                        HINDI
+                    </button>
+                    <br>
+                    <span id="sub_course">
+                                         
+                    </span>
+                    
+                </span>
+            </div>
+            <div id="price_container">
+                <span id="discount">Limited Time Discount</span><br>
+                <span id="price">₹ 2499</span><span id="original_price">₹ 9999</span>
+                <button id="discount_button">50% OFF</button>
+            </div>
+            <button id="view2" class="view_button">View Details</button>
+        </div>
+    </div> -->
+    <div id="dummyabovecompany"></div>
+    <div id="compines_container">
+        <div id="compines_container_text">
+            <span id="compianes_text1">Top <span id="color_text">companies</span> our students</span><br>
+            <span id="compianes_text2">working with</span>
+        </div>
+        <div id="img_container">
+            <img id="img_size" src="{% static 'companies.webp' %}" alt="">
+        </div>
+        <div id="explorebutton_container">
+            <button id="explore_button">Explore Courses</button>
+        </div>
+        <div id="dummybelowcompany"></div>
+    </div>
+    <div id="footer_parent">
+        <img id="footer_img" src="{% static 'Sheryians_logo.webp' %}" alt="">
+        <img src="{% static 'socialimg.png' %}" alt="" id="social_img">
+        <span id="footer_span">Let's connect with our socials</span>
+        <div id="company">
+            <div class="footer-content">
+                <h3>COMPANY</h3>
+                <ul>
+                  <li>About Us</li>
+                  <li>Support</li>
+                  <li>Privacy Policy</li>
+                  <li>Terms and Condition</li>
+                  <li>Pricing and Refund</li>
+                  <li>Hire From Us</li>
+                  <li>Bug Bounty</li>
+                </ul>
+              </div>
+
+        </div>
+    </div>
+    <div id="copyright"><p id="copyright_para">Copyright © 2024 Sheryians Pvt. Ltd. <br>
+        All Rights Reserved.</p></div>
+</body>
+</html>
